@@ -7,7 +7,7 @@ body {
 }
 .counter {
     font-size: 8rem;
-    margin-top: -120px;
+    margin-top: -130px;
     padding: 20px;
 }
 .buttons {
@@ -105,8 +105,8 @@ header {
     margin-top: -50px; /* Move header upward */
 }
 img {
-    width: 170px; /* Allow manual width adjustment */
-    height: 150px; /* Allow manual height adjustment */
+    width: 190px; /* Allow manual width adjustment */
+    height: 170px; /* Allow manual height adjustment */
     margin-top: 20px;
     margin-left: 40px;
 }
