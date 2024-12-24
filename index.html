@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Counter Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <div class="logo-container">
+                <img src="./1.jpg" alt="Description of the image" onerror="this.onerror=null; this.src='placeholder.jpg';">
+            </div>
+            <script src="script.js"></script>
+        </header>
+        <div class="counter" id="counter">0</div>
+        <div class="buttons">
+           
+            <button onclick="editCounter()">Edit</button>
+            <button onclick="resetCounter()">Reset</button>
+        </div>
+        <div class="circle-container">
+            <div class="circle" onclick="incrementCounter()">
+                <div class="arrow">|||</div>
+                <div class="reset-circle" onclick="resetEverything(event)">
+                    <div class="arrow">&#9660;</div>
+                </div>
+            </div>
+        </div>
+        <footer>
+Pray for Palestine - <a href="#" onclick="restrictSelection(event)">Donate Food</a>
+        </footer>
+    </div>
+</body>
+</html>

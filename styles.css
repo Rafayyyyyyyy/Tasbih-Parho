@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.counter {
+    font-size: 8rem;
+    margin-top: -120px;
+    padding: 20px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    margin-top: -70px;
+    padding-top: 40px;
+}
+button {
+    background-color: #222222; /* New background color */
+    color: white; /* Ensure text color is white for contrast */
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease; /* Smooth transition for glow effect */
+}
+
+button:hover {
+    box-shadow: 0 0 10px #00ea86; /* Glow effect */
+}
+
+.circle-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: #01301c;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 20px #00ea86;
+}
+.circle:hover {
+    box-shadow: 0 0 30px #00ea86; /* Glow effect on hover */
+}
+.arrow {
+    color: #00ea86;
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1;
+    user-select: none; /* Prevent text selection */
+    margin-bottom: 20px;
+}
+.reset-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #01301c;
+    position: absolute;
+    bottom: 0; /* Perfectly aligns to the bottom edge of the larger circle */
+    transform: translateY(50%); /* Pulls it halfway down to overlap perfectly */
+    cursor: pointer;
+    box-shadow: 0 0 10px #00ea86;
+    border: 2px solid #01301c; /* Fills any potential gaps */
+}
+.reset-circle .arrow {
+    font-size: 2rem;
+    color: #00ea86;
+    margin-top: 20px;
+}
+.reset-circle:hover {
+    background-color: #016530; /* Change background color on hover */
+    box-shadow: 0 0 20px #00ea86; /* Glow effect */
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+}
+footer a {
+    color: #0f0;
+    text-decoration: none;
+}
+header {
+    display: flex; /* Use flexbox for layout */
+    justify-content: flex-start; /* Align items to the left */
+    margin: 0; /* Remove any default margin */
+    margin-left: -70px; /* Move header further left */
+    margin-top: -50px; /* Move header upward */
+}
+img {
+    width: 170px; /* Allow manual width adjustment */
+    height: 150px; /* Allow manual height adjustment */
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.logo-container {
+    margin-bottom: 20px; /* Adjust as needed to create space below the logo */
+}
+.main-container {
+    margin: 0 auto; /* Center the container */
+    max-width: 1200px; /* Set a maximum width for the container */
+}
