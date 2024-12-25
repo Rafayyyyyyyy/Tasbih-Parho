@@ -107,8 +107,8 @@ header {
 img {
     width: 190px; /* Allow manual width adjustment */
     height: 170px; /* Allow manual height adjustment */
-    margin-top: 20px;
-    margin-left: 40px;
+    margin-top: px;
+    margin-left: 5px;
 }
 .logo-container {
     margin-bottom: 20px; /* Adjust as needed to create space below the logo */
