@@ -60,6 +60,14 @@ button:hover {
     -webkit-tap-highlight-color: transparent;
 }
 
+.circle {
+    user-select: none; /* Prevent selection of the circle */
+    box-shadow: 0 0 20px #00ea86; /* Initial glow effect */
+}
+
+.circle:active {
+    box-shadow: 0 0 30px #00ea86; /* Glow effect on click */
+}
 .circle:hover {
     box-shadow: 0 0 30px #00ea86; /* Glow effect on hover */
 }
