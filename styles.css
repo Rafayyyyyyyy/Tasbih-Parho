@@ -52,7 +52,14 @@ button:hover {
     position: relative;
     cursor: pointer;
     box-shadow: 0 0 20px #00ea86;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
 }
+
 .circle:hover {
     box-shadow: 0 0 30px #00ea86; /* Glow effect on hover */
 }
