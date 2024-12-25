@@ -92,9 +92,15 @@ button:hover {
 footer {
     margin-top: 50px;
     font-size: 0.9rem;
+    user-select: none; /* Prevent selection of the footer text */
 }
 footer a {
-    color: #0f0;
+    color: rgb(4, 54, 4);
+    text-decoration: none;
+    user-select: text; /* Allow selection of the link */
+}
+footer a {
+    color: rgb(8, 182, 8);
     text-decoration: none;
 }
 header {
@@ -116,4 +122,11 @@ img {
 .main-container {
     margin: 0 auto; /* Center the container */
     max-width: 1200px; /* Set a maximum width for the container */
+}
+
+footer + p {
+    color: grey; /* Set the text color to grey */
+    font-size: 0.7rem; /* Adjust the font size */
+    text-align: center; /* Center the text */
+    margin-top: 4px; /* Add some space above the paragraph */
 }
